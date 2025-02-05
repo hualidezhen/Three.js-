@@ -202,6 +202,26 @@ export const routes: Array<RouteRecordRaw> = [
 		},
         children:[]
     },
+	{
+		path: '/nineteenThree',
+		name: 'nineteenThree',
+		component: () => import('../../src/components/nineteenThree.vue'),
+		meta: {
+			title: 'CSS3DRenderer渲染',
+			hidden: true,
+		},
+        children:[]
+    },
+	{
+		path: '/twentyThree',
+		name: 'twentyThree',
+		component: () => import('../../src/components/twentyThree.vue'),
+		meta: {
+			title: '关键帧动画',
+			hidden: true,
+		},
+        children:[]
+    },
 ]
 
 const router = createRouter({

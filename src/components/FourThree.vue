@@ -51,7 +51,7 @@ scene.add(ambient);
 const gui = new GUI();
 //改变交互界面style属性
 gui.domElement.style.right = '10px';
-gui.domElement.style.top = '50px';
+gui.domElement.style.top = '200px';
 gui.domElement.style.width = '300px';
 
 // 创建材质子菜单
